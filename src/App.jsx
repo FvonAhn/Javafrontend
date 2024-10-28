@@ -12,12 +12,7 @@ function App() {
     <>
       <section id="first-page">
         <Navbar />
-        <container className="bottom-of-page-1">
-          <Hero />
-          <Downloads />
-          {/* <Discover /> */}
-          <Phones />
-        </container>
+        <Hero />
       </section>
     </>
 
