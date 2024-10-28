@@ -1,6 +1,5 @@
 import React from 'react'
 import Headline from './Headline'
-import Downloads from './Downloads'
 import Phones from './Phones'
 
 function Hero() {
@@ -10,10 +9,8 @@ function Hero() {
         <>
             <container className="bottom-of-page-1">
                 <Headline />
-                <Downloads />
                 <Phones />
             </container>
-        
         </>
                 
     )
