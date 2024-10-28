@@ -4,6 +4,7 @@ import SecondPage from './Components/SecondPage'
 import ThirdPage from './Components/ThirdPage'
 import PageFour from './Components/PageFour'
 import FifthPage from './Components/FifthPage'
+import SixthPage from './Components/SixthPage'
 
 const App = () => {
 
@@ -24,6 +25,9 @@ const App = () => {
       </section>
       <section id="fifth-page">
         <FifthPage />
+      </section>
+      <section id="sixth-page">
+        <SixthPage />  
       </section>
     </>
 

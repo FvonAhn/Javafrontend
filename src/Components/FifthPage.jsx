@@ -5,9 +5,7 @@ const FifthPage = () => {
 
     return (
 
-        <>
-            <Testimonials />
-        </>
+        <Testimonials />
 
     )
 
