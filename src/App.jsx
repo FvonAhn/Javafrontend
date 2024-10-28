@@ -1,9 +1,7 @@
 import './Assets/css/styles.css'
-import Navbar from './Components/Navbar'
-import Hero  from './Components/Hero'
-import HeaderP2 from './Components/HeaderP2'
-import InfoSheet from './Components/InfoSheet'
 import Work from './Components/Works'
+import FirstPage from './Components/FirstPage'
+import SecondPage from './Components/SecondPage'
 import PageFour from './Components/PageFour'
 
 const App = () => {
@@ -12,18 +10,19 @@ const App = () => {
 
     <>
       <section id="first-page">
-        <Navbar />
-        <Hero />
+        <FirstPage />
       </section>
       <section id="second-page">
-        <HeaderP2 />
-        <InfoSheet />
+        <SecondPage />
       </section>
       <section id="third-page">
         <Work />
       </section>
       <section id="fourth-page">
         <PageFour />
+      </section>
+      <section id="fifth-page">
+
       </section>
     </>
 
