@@ -1,8 +1,9 @@
 import './Assets/css/styles.css'
-import Work from './Components/Works'
 import FirstPage from './Components/FirstPage'
 import SecondPage from './Components/SecondPage'
+import ThirdPage from './Components/ThirdPage'
 import PageFour from './Components/PageFour'
+import FifthPage from './Components/FifthPage'
 
 const App = () => {
 
@@ -16,13 +17,13 @@ const App = () => {
         <SecondPage />
       </section>
       <section id="third-page">
-        <Work />
+        <ThirdPage />
       </section>
       <section id="fourth-page">
         <PageFour />
       </section>
       <section id="fifth-page">
-
+        <FifthPage />
       </section>
     </>
 
