@@ -12,8 +12,9 @@ function Navbar() {
                     <a href="#"><img src={silicon} /></a>
                 </div>
                 <nav className="feat">
-                    <a href="#">Features</a>       
-                </nav>            
+                    <a href="#">Features</a>
+                    <a href="#">Contact</a>       
+                </nav>         
                 <div className="toggle-switch">
                     <span className="Label">Dark Mode</span>
                     <label className="switch">

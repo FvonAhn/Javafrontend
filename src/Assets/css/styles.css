@@ -50,6 +50,11 @@ a {
 a:hover {
     color: rgb(211, 211, 211);
 }
+.feat {
+    font-weight: 300;
+    display: flex;
+    gap: 2rem;
+}
 .switch {
     --_w: 40px;
     --_h: 20px;
