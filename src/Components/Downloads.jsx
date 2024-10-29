@@ -1,6 +1,6 @@
 import React from "react"
-import gplaylogo from'../images/gplaylogo.svg'
-import applelogo from'../images/applelogo.svg'
+import gplaylogo from '../images/gplaylogo.svg'
+import applelogo from '../images/applelogo.svg'
 
 function Downloads() {
 
