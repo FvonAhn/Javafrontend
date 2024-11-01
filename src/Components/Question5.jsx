@@ -5,7 +5,7 @@ const Q5 = () => {
 
     return (
 
-        <a href="#" className="question">
+        <a href="#" className="faqs">
             <p className="q-text">Can I create my own password that is easy for me to remeber?</p>
             <img src={ArrowDown} className="arrow-down" />  
         </a>

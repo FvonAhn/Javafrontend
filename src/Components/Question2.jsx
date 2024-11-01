@@ -5,7 +5,7 @@ const Q2 = () => {
 
     return (
 
-        <a href="#" className="question">
+        <a href="#" className="faqs">
             <p className="q-text">What formats can I download my transaction history in?</p>
             <img src={ArrowDown} className="arrow-down" />  
         </a>

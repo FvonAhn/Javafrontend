@@ -5,7 +5,7 @@ const Q6 = () => {
 
     return (
 
-        <a href="#" className="question">
+        <a href="#" className="faqs">
             <p className="q-text">What if I forget or lose my password?</p>
             <img src={ArrowDown} className="arrow-down" />  
         </a>

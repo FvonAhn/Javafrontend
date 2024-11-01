@@ -5,7 +5,7 @@ const Q4 = () => {
 
     return (
 
-        <a href="#" className="question">
+        <a href="#" className="faqs">
             <p className="q-text">When can I use Banking App services?</p>
             <img src={ArrowDown} className="arrow-down" />  
         </a>
