@@ -1,5 +1,5 @@
 import React from 'react'
-import silicon from '../images/silicon.svg'
+import silicon from '../images/shape.svg'
 import ToggleBtn from './ToggleBtn'
 import SignInUp from './SignInUp'
 
@@ -11,7 +11,10 @@ function Navbar() {
             <div className="toppen">
             
                 <div className="silicon-image">
-                    <a href="#"><img src={silicon} /></a>
+                    <a href="#" className="silicon">
+                        <img src={silicon} />
+                        <p className="silicon-text">Silicon</p>
+                    </a>
                 </div>
                 <nav className="feat">
                     <a href="#">Features</a>
