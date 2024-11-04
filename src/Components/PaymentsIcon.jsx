@@ -1,17 +1,17 @@
 import React from "react";
-import iconBoxImg1 from "./images/iconBoxImg1"
+import PaymentsImg from '../images/icon-payments.svg'
 
-const IconBox1 = () => {
+const PaymentsIcon = () => {
     return (
+        <>
         <div className="iconBox">
-            <div className="iconBox-image">
-                <img src={iconBoxImg1} />
-            </div>
+            <img src={PaymentsImg} />
             <div className="iconBox-text">
                 <p className="iconBox-header">Hope And Survival</p>
                 <p className="IconBox-bread">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, similique?</p>
-            </div>  
+            </div>
         </div>
+        </>
     )
 }
-export default IconBox1
+export default PaymentsIcon

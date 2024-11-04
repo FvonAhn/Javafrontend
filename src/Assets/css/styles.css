@@ -290,6 +290,25 @@ input:checked + .slider:before {
     font-size: 0.9rem;
     font-weight: 100;
 }
+.iconBox {
+    display: grid;
+    gap:1rem;
+    grid-template-columns: auto auto;
+    max-width: 20rem;
+}
+.iconBox-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 15rem;
+}
+.iconBox-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.iconBox-bread {
+    font-weight: 200;
+}
 .icons-1 {
     padding-bottom: 8rem;
     margin-right: 0.7rem;
