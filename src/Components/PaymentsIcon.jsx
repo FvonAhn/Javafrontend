@@ -7,7 +7,7 @@ const PaymentsIcon = () => {
         <div className="iconBox">
             <img src={PaymentsImg} />
             <div className="iconBox-text">
-                <p className="iconBox-header">Hope And Survival</p>
+                <p className="iconBox-header">Easy Payments</p>
                 <p className="IconBox-bread">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, similique?</p>
             </div>
         </div>
