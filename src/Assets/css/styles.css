@@ -18,6 +18,7 @@
     --_clr-quoteshover:  rgba(0, 0, 0, 0.15);
     --_clr-contact: rgba(0, 0, 0, 0.2);
     --_clr-contacthover: rgba(0, 0, 0, 0.08);
+    --_clr-subscribe:rgba(0, 0, 0, 0.08);
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #ffffff;
 
     --container-padding: 1rem;
@@ -37,6 +38,7 @@
     --_clr-quoteshover:  #565c92;
     --_clr-contact: rgba(255, 255, 255, 0.5);
     --_clr-contacthover: #33354D;
+    --_clr-subscribe: rgb(255 255 255, .04);
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #0b0f19;
 
 
@@ -619,7 +621,7 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgb(51, 53, 77, 0.5);
+    background-color: var(--_clr-subscribe);
     grid-area: bottom;
 }
 .sub-bell {
@@ -644,7 +646,7 @@ input:checked + .slider:before {
     transform: translateY(-50%);
 }
 .input-email {
-    color: var(--_clr-white);
+    color: var(--_clr-text);
     background-color: var(--_clr-background);
     height: 2.75rem;
     width: 20rem;
