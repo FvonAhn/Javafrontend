@@ -3,7 +3,8 @@
     padding:0%;
     box-sizing: border-box;
 }
-:root /*[data-theme="light"] */{
+    /* Light Theme */
+:root {
     
     /*sektionsfärgerna kommenteras ut när allt är klart*/
     --_clr-primary:#6663F1;
@@ -14,8 +15,8 @@
     --_clr-green:#22C55E;
     --_clr-text: black;
     --_clr-togglebtn: rgba(0, 0, 0, 0.7);
-    --_clr-quotes:rgba(0, 0, 0, 0.08);
-    --_clr-quoteshover:  rgba(0, 0, 0, 0.15);
+    --_clr-quotes:rgba(99, 102, 241, 0.08);
+    --_clr-quoteshover:  rgba(99, 102, 241, 0.15);
     --_clr-contact: rgba(0, 0, 0, 0.2);
     --_clr-contacthover: rgba(0, 0, 0, 0.08);
     --_clr-subscribe:rgba(0, 0, 0, 0.08);
@@ -24,15 +25,16 @@
     --container-padding: 1rem;
     --transition-time: all 0.2s;    
 }
-/* :root /*[data-theme="dark"]*/ /*{
+    /* Dark Theme */
+ :root.dark-theme {
 
     --_clr-primary:#6663F1;
-    --_clr-bkg1:#33354D;
-    --_clr-bkg2:#0B0F19; 
+    --_clr-bkg1:#33354D; /* sektionsfärg */
+    --_clr-bkg2:#0B0F19; /* sektionsfärg */
     --_clr-black:black;
     --_clr-white:white;
     --_clr-green:#22C55E;
-    --_clr-text:black;
+    --_clr-text: white;
     --_clr-togglebtn: rgb(255, 255, 255, .5);
     --_clr-quotes:rgb(51, 53, 77, 0.5);
     --_clr-quoteshover:  #565c92;
@@ -45,7 +47,7 @@
     --container-padding: 1rem;
     --transition-time: all 0.2s;    
 
-} */
+}
 
 body {
     font-family: Manrope;

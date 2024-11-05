@@ -6,7 +6,7 @@ import PageFour from './Components/PageFour'
 import FifthPage from './Components/FifthPage'
 import SixthPage from './Components/SixthPage'
 
-const App = () => {
+function App  ()  {
 
   return (
 
