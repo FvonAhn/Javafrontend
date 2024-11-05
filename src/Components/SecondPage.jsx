@@ -1,5 +1,5 @@
 import React from "react"
-import HeaderP2 from "./HeaderP2"
+import HeaderP2dark from "./HeaderP2dark"
 import InfoSheet from "./InfoSheet"
 
 const SecondPage = () => {
@@ -7,7 +7,7 @@ const SecondPage = () => {
     return (
 
         <>
-            <HeaderP2 />
+            <HeaderP2dark />
             <InfoSheet />
         </>
 

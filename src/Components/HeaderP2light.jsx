@@ -6,7 +6,7 @@ import logo4 from '../images/logo-4.svg'
 import logo5 from '../images/logo-5.svg'
 import logo6 from '../images/logo-6.svg'
 
-function HeaderP2 () {
+function HeaderP2light () {
 
     return (
 
@@ -22,4 +22,4 @@ function HeaderP2 () {
     )
 
 }
-export default HeaderP2
+export default HeaderP2light
