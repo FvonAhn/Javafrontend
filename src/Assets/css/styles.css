@@ -15,6 +15,8 @@
     --_clr-green:#22C55E;
     --_clr-text: black;
     --_clr-togglebtn: rgba(0, 0, 0, 0.7);
+    --_clr-apps: rgb(99, 102, 241, 0.08);
+    --_clr-appshover: rgba(99, 102, 241, 0.15);
     --_clr-quotes:rgba(99, 102, 241, 0.08);
     --_clr-quoteshover:  rgba(99, 102, 241, 0.15);
     --_clr-contact: rgba(0, 0, 0, 0.2);
@@ -23,7 +25,7 @@
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #ffffff;
 
     --container-padding: 1rem;
-    --transition-time: all 0.2s;    
+    --transition-time: all 0.3s;    
 }
     /* Dark Theme */
  :root.dark-theme {
@@ -36,16 +38,18 @@
     --_clr-green:#22C55E;
     --_clr-text: white;
     --_clr-togglebtn: rgb(255, 255, 255, .5);
+    --_clr-apps: white;
+    --_clr-appshover: rgb(211, 211, 211);
     --_clr-quotes:rgb(51, 53, 77, 0.5);
     --_clr-quoteshover:  #565c92;
     --_clr-contact: rgba(255, 255, 255, 0.5);
     --_clr-contacthover: #33354D;
-    --_clr-subscribe: rgb(255 255 255, .04);
+    --_clr-subscribe: rgb(255, 255, 255, 0.08);
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #0b0f19;
 
 
     --container-padding: 1rem;
-    --transition-time: all 0.2s;    
+    --transition-time: all 0.3s;    
 
 }
 
@@ -217,7 +221,7 @@ input:checked + .slider:before {
 
 }
 .btn-apple {
-    background-color: var(--_clr-quotes);
+    background-color: var(--_clr-apps);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,10 +231,10 @@ input:checked + .slider:before {
     padding-right: 1.2rem;
 }
 .btn-apple:hover {
-    background-color: var(--_clr-quoteshover);
+    background-color: var(--_clr-appshover);
 }
 .btn-google {
-    background-color: var(--_clr-quotes);
+    background-color: var(--_clr-apps);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +244,7 @@ input:checked + .slider:before {
     padding-right: 1.2rem;
 }
 .btn-google:hover {
-    background-color: var(--_clr-quoteshover);
+    background-color: var(--_clr-appshover);
 }
 .discover {
     margin-top: 20rem;
@@ -578,13 +582,13 @@ input:checked + .slider:before {
     padding: 10px 1rem;
     max-width: 46.5rem;
     grid-area: question;
+    cursor: pointer;
 }
 .question {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: auto;
-
 }
 .chevron-down {
     color: var(--_clr-white);
@@ -597,6 +601,9 @@ input:checked + .slider:before {
     background-color: var(--_clr-quoteshover);
 }
 .answer {
+    padding-top: 0;  
+}
+.answer.open {
     padding-top: 1rem;
 }
 .q-text-arrow {
