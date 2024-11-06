@@ -1,6 +1,7 @@
 import React from "react"
 import Fannie from "./Fannie"
 import Albert from "./Albert"
+import TestimonialsList from "./TestimonialsList"
 
 const Testimonials = () => {
 
