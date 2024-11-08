@@ -275,7 +275,6 @@ input:checked + .slider:before {
     justify-content: center;
     border: solid 1px var(--_clr-quotes); 
     border-radius: 10px;
-    margin: 
 }
 .logos-images {
     padding: 2rem;
