@@ -1,11 +1,11 @@
 import React from "react"
-import Testimonials from "./Testimonials"
+import Clients from "./Clients"
 
 const FifthPage = () => {
 
     return (
 
-        <Testimonials />
+        <Clients />
 
     )
 

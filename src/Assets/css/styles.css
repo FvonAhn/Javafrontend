@@ -264,6 +264,22 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
 }
+.logos-border {
+    /* padding: 2rem; */
+    height: 6rem;
+    width: 11rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--_clr-quotes); 
+    border-radius: 10px;
+    margin: 
+}
+.logos-images {
+    padding: 2rem;
+}
 .logos img {
     width: 90%;
     height: auto;

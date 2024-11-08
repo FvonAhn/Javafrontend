@@ -11,12 +11,36 @@ function HeaderP2 () {
     return (
 
         <container className="logos">
-            <a href="#"><img src={logo1} /></a>
-            <a href="#"><img src={logo2} /></a>
-            <a href="#"><img src={logo3} /></a>
-            <a href="#"><img src={logo4} /></a>
-            <a href="#"><img src={logo5} /></a>
-            <a href="#"><img src={logo6} /></a>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo1} /></a>
+                </div>
+            </div>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo2} /></a>
+                </div>
+            </div>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo3} /></a>
+                </div>
+            </div>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo4} /></a>
+                </div>
+            </div>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo5} /></a>
+                </div>
+            </div>
+            <div className="logos-border">
+                <div className="logo-images">
+                    <a href="#"><img src={logo6} /></a>
+                </div>
+            </div>
         </container>
 
     )

@@ -8,7 +8,7 @@ const Work = () => {
 
         <>
 
-            <h2 class="how-text">How Does it Work?</h2>
+            <h2 className="how-text">How Does it Work?</h2>
             <ThreePhones />
             <Transaction />
             
