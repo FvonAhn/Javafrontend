@@ -5,6 +5,7 @@ import ThirdPage from './Components/ThirdPage'
 import PageFour from './Components/PageFour'
 import FifthPage from './Components/FifthPage'
 import SixthPage from './Components/SixthPage'
+import Contact from './Components/Contact'
 
 function App  ()  {
 
@@ -28,6 +29,9 @@ function App  ()  {
       </section>
       <section id="sixth-page">
         <SixthPage />  
+      </section>
+      <section id="test-page">
+        <Contact />
       </section>
     </>
 

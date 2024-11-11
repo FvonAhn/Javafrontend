@@ -723,6 +723,19 @@ input:checked + .slider:before {
     font-weight: 100;
     font-size: 12px;
 }
+.contactPage {
+    display: grid;   
+}
+.pageNavigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.home {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 /* #rickrolled {
     background-color: #0B0F19;
 } */
