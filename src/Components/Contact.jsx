@@ -49,7 +49,7 @@ function Contact () {
                     </nav>
                 </div>
                 <div className="consult-container">
-                    {/* <ConsultForm /> */}
+                    <ConsultForm />
                 </div>
 
             </div>
