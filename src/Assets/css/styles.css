@@ -612,15 +612,25 @@ input:checked + .slider:before {
     padding: .7rem .8rem;
     border: 0;
     border-radius: 30px;
+    transition: 0.3s;
+}
+.chevron-down.open {
+    color: var(--_clr-white);
+    background-color: var(--_clr-primary);
+    padding: .7rem .8rem;
+    border: 0;
+    border-radius: 30px;
+    transform: rotate(180deg);
 }
 .faqs:hover {
     background-color: var(--_clr-quoteshover);
 }
 .answer {
-    padding-top: 0;  
+    padding-top: 0;
+    transition: 0.3s;  
 }
 .answer.open {
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 .q-text-arrow {
     padding-right: none;
