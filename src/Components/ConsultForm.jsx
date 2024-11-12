@@ -20,8 +20,11 @@ return (
     <div className="consultForm">
         <form>
             <h2>Get Online Consultation</h2>
+            <p>Full Name</p>
             <input type="full name" className="inputFullName" name="full name" placeholder="Your Full Name Here" />
+            <p>Email Adress</p>
             <input type="email" className="inputEmail" name="email" placeholder="Your Email Here" />
+            <p>Specialist</p>
             <select onChange={handleSelection} value={selectedPerson}>
                 <option vaule="" disabled>Specialist</option>
                 {people.map((person) => (<option key={person.id} value={person.name}>{person.name}</option>))}

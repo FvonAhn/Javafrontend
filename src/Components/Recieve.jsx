@@ -9,7 +9,7 @@ const Receive = () => {
 
         <div className="receive">
 
-                <div class="payment-text">
+                <div className="payment-text">
                     <p>Receive payment from</p>
                     <p>international bank details</p>
                 </div>
