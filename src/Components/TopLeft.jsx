@@ -8,10 +8,10 @@ const TopLeft = () => {
         <div className="top-left">
         
             <div>
-                <p class="text-faqs">Any questions?</p>
-                <p class="text-faqs">Check out the FAQs</p>
+                <p className="text-faqs">Any questions?</p>
+                <p className="text-faqs">Check out the FAQs</p>
             </div>
-            <p class="text-in-touch">Still have unanswered questions and need to get in touch</p>
+            <p className="text-in-touch">Still have unanswered questions and need to get in touch</p>
             <div className="call-text-us">
 
                 <Call />

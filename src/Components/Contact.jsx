@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import ConsultForm from "./ConsultForm";
 import Map from "./Map";
 import Details from "./Details";
+import MedicalCenter from "./MedicalCenter";
 
 function Contact () {
 
@@ -18,7 +19,7 @@ function Contact () {
                         <i className="fa-solid fa-house"></i>
                         Home
                     </a>
-                    <i class="fa-solid fa-angles-right"></i>
+                    <i className="fa-solid fa-angles-right"></i>
                     <a href="#">Contact</a>
                 </div>
 
@@ -33,6 +34,9 @@ function Contact () {
                 </div>
                 <div className="map-container">
                     <Map />
+                </div>
+                <div className="medical-container">
+                    <MedicalCenter />
                 </div>
 
             </div>

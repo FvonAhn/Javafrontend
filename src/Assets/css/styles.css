@@ -734,7 +734,27 @@ input:checked + .slider:before {
 .home {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 7px;
+}
+.medical {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.medical-fillers {
+    display: flex;
+    gap: 7px;
+}
+.medIcon {
+    color: var(--_clr-primary)
+}
+.days {
+    display:flex;
+    gap: 7px
+}
+.nine-ten {
+    font-weight: 200;
 }
 /* #rickrolled {
     background-color: #0B0F19;

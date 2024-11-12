@@ -5,7 +5,7 @@ const IconCard = () => {
 
     return (
 
-        <div class="icon-card">
+        <div className="icon-card">
 
             <img src={IconCardImg} />
             <p>Manage your payments online.</p>

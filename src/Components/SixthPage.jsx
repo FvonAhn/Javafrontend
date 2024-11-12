@@ -16,8 +16,8 @@ const SixthPage = () => {
             <BottomP6 />
 
         </div>
-        <a href="#first-page" class="tothetop">Top of page</a>
-        <p class="my-mark">© 2024 Silicon. All Rights Reserved. Made by FvA. Credit to Madras.</p>       
+        <a href="#first-page" className="tothetop">Top of page</a>
+        <p className="my-mark">© 2024 Silicon. All Rights Reserved. Made by FvA. Credit to Madras.</p>       
         
         </>
 

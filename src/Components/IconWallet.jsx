@@ -5,7 +5,7 @@ const IconWallet = () => {
 
     return (
 
-        <div class="icon-wallet">
+        <div className="icon-wallet">
             <img src={IconWalletImg} />
             <p>A elementur and imperdiet enim,</p>
             <p>pretium etiam facilisi aenean</p>
