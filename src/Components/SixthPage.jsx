@@ -9,15 +9,15 @@ const SixthPage = () => {
     return (
         <>
         
-        <div className="page-six">
+            <div className="page-six">
 
-            <TopLeft />
-            <TheFaqs />
-            <BottomP6 />
+                <TopLeft />
+                <TheFaqs />
+                <BottomP6 />
 
-        </div>
-        <a href="#first-page" className="tothetop">Top of page</a>
-        <p className="my-mark">© 2024 Silicon. All Rights Reserved. Made by FvA. Credit to Madras.</p>       
+            </div>
+            <a href="#first-page" className="tothetop">Top of page</a>
+            <p className="my-mark">© 2024 Silicon. All Rights Reserved. Made by FvA. Credit to Madras.</p>       
         
         </>
 

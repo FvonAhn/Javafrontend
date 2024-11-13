@@ -23,11 +23,11 @@ return (
                 <h2>Get Online Consultation</h2>
             </div>
             <div className="conInputs">
-                <p>Full Name</p>
+                <p className="conText">Full Name</p>
                 <input type="full name" className="inputFullName" name="full name" />
-                <p>Email Adress</p>
+                <p className="conText">Email Adress</p>
                 <input type="email" className="inputEmail" name="email" />
-                <p>Specialist</p>
+                <p className="conText">Specialist</p>
                 <select className="specialist" onChange={handleSelection} value={selectedPerson}>
                     <option vaule="">-none-</option>
                     {people.map((person) => (<option key={person.id} value={person.name}>{person.name}</option>))}

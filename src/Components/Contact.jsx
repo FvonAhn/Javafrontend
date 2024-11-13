@@ -17,7 +17,7 @@ function Contact () {
             <div className="contactPage">
                 <div className="navTopLeft">
                     <div className="pageNavigation">
-                        <a href="#" className="home">
+                        <a href="/" className="home">
                             <i className="fa-solid fa-house"></i>
                             Home
                         </a>
@@ -45,6 +45,7 @@ function Contact () {
                 </div>
 
             </div>
+            <p className="contactMark">© 2024 Silicon. All Rights Reserved. Made by FvA. Credit to Madras.</p>
 
         </>
 

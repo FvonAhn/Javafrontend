@@ -1,4 +1,5 @@
 import './Assets/css/styles.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import FirstPage from './Components/FirstPage'
 import SecondPage from './Components/SecondPage'
 import ThirdPage from './Components/ThirdPage'
@@ -10,32 +11,21 @@ import Contact from './Components/Contact'
 function App  ()  {
 
   return (
-
-    <>
-      <section id="first-page">
-        <FirstPage />
-      </section>
-      <section id="second-page">
-        <SecondPage />
-      </section>
-      <section id="third-page">
-        <ThirdPage />
-      </section>
-      <section id="fourth-page">
-        <PageFour />
-      </section>
-      <section id="fifth-page">
-        <FifthPage />
-      </section>
-      <section id="sixth-page">
-        <SixthPage />  
-      </section>
-      <section id="test-page">
-        <Contact />
-      </section>
-    </>
-
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <>
+          <FirstPage />
+          <SecondPage />
+          <ThirdPage />
+          <PageFour />
+          <FifthPage />
+          <SixthPage />          
+          </>
+        }/>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   )
-
 }
 export default App

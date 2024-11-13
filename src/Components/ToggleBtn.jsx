@@ -1,15 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 
 const ToggleBtn = () => {
 
-    const [isDarkMode, setIsDarkMode ] = useState(false);
+    const [isDarkMode, setIsDarkMode ] = useState(() => {
+        return localStorage.getItem('isDarkMode') === 'true';
+    });
+
+    useEffect(() => {
+        if (isDarkMode) {
+            document.documentElement.classList.add('dark-theme');
+            } 
+        else {
+            document.documentElement.classList.remove('dark-theme');
+        }},  
+        [isDarkMode])
 
     const toggleTheme = () => {
 
-        setIsDarkMode(!isDarkMode);
+        const newMode = !isDarkMode;
+        setIsDarkMode(newMode);
+        localStorage.setItem('isDarkMode', newMode);
 
-        if (!isDarkMode) {
+        if (newMode) {
             document.documentElement.classList.add('dark-theme');
         }
         else {

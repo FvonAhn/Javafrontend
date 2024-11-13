@@ -16,8 +16,8 @@ function Navbar() {
                     </a>
                 </div>
                 <nav className="feat">
-                    <a href="#">Features</a>
-                    <a href="#">Contact</a>       
+                    <a href="/">Features</a>
+                    <a href="/contact">Contact</a>       
                 </nav>         
                 <ToggleBtn />
                 <SignInUp />
