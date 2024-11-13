@@ -10,7 +10,7 @@ function HeaderP2 () {
 
     return (
 
-        <container className="logos">
+        <div className="logos">
             <div className="logos-border">
                 <div className="logo-images">
                     <a href="#"><img src={logo1} /></a>
@@ -41,7 +41,7 @@ function HeaderP2 () {
                     <a href="#"><img src={logo6} /></a>
                 </div>
             </div>
-        </container>
+        </div>
 
     )
 

@@ -23,7 +23,7 @@
     --_clr-contacthover: rgba(0, 0, 0, 0.08);
     --_clr-subscribe:rgba(0, 0, 0, 0.08);
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #ffffff;
-
+    --_clr-form: rgba(255, 255, 255, 0.9);
     --container-padding: 1rem;
     --transition-time: all 0.3s;    
 }
@@ -37,7 +37,7 @@
     --_clr-white:white;
     --_clr-green:#22C55E;
     --_clr-text: white;
-    --_clr-togglebtn: rgb(255, 255, 255, .5);
+    --_clr-togglebtn: rgba(99, 102, 241, 0.08);
     --_clr-apps: white;
     --_clr-appshover: rgb(211, 211, 211);
     --_clr-quotes:rgb(51, 53, 77, 0.5);
@@ -46,7 +46,7 @@
     --_clr-contacthover: #33354D;
     --_clr-subscribe: rgb(255, 255, 255, 0.08);
     --_clr-background: linear-gradient(to top, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 42%, rgba(241, 244, 253, 0.07) 83%), #0b0f19;
-
+    --_clr-form: rgba(255, 255, 255, 0.9);
 
     --container-padding: 1rem;
     --transition-time: all 0.3s;    
@@ -733,16 +733,14 @@ input:checked + .slider:before {
     display: grid; 
     padding-top: 2rem;
     padding-bottom: 5rem;
-
-    display: grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 .pageNavigation {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 
 }
 .home {
@@ -798,15 +796,16 @@ input:checked + .slider:before {
     color: rgb(102, 99, 241, .7);
 }  
 .consultForm {
+    margin: 6rem auto;
     color: black;
-    background-color: var(--_clr-quotes);
+    background-color: var(--_clr-form);
     width: 636px;
     height: 718px;
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
 }
 .conHeadline {
     font-size: 1.2rem;
@@ -849,6 +848,9 @@ input:checked + .slider:before {
 }
 .consult-btn:hover {
     background-color: rgb(102, 99, 241, .7);
+}
+.navBottomRight {
+    margin: auto;
 }
 .medical {
     display: flex;

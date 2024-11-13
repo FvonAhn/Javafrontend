@@ -6,10 +6,10 @@ function Hero() {
 
     return (
         
-        <container className="bottom-of-page-1">
+        <div className="bottom-of-page-1">
             <Headline />
             <Phones />
-        </container>
+        </div>
                 
     )
 
