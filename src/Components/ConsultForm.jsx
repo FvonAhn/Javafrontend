@@ -22,15 +22,17 @@ return (
             <div className="conHeadline">
                 <h2>Get Online Consultation</h2>
             </div>
-            <p>Full Name</p>
-            <input type="full name" className="inputFullName" name="full name" />
-            <p>Email Adress</p>
-            <input type="email" className="inputEmail" name="email" />
-            <p>Specialist</p>
-            <select className="specialist" onChange={handleSelection} value={selectedPerson}>
-                <option vaule="">-none-</option>
-                {people.map((person) => (<option key={person.id} value={person.name}>{person.name}</option>))}
-            </select>
+            <div className="conInputs">
+                <p>Full Name</p>
+                <input type="full name" className="inputFullName" name="full name" />
+                <p>Email Adress</p>
+                <input type="email" className="inputEmail" name="email" />
+                <p>Specialist</p>
+                <select className="specialist" onChange={handleSelection} value={selectedPerson}>
+                    <option vaule="">-none-</option>
+                    {people.map((person) => (<option key={person.id} value={person.name}>{person.name}</option>))}
+                </select>
+            </div>
             <div>
                 <button className="consult-btn">Make an appointment</button>
             </div>

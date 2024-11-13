@@ -9,7 +9,6 @@ function Navbar() {
 
         <header className="top-of-page-1">              
             <div className="toppen">
-            
                 <div className="silicon-image">
                     <a href="#" className="silicon">
                         <img src={silicon} />
