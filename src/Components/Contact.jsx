@@ -2,10 +2,11 @@ import React from "react";
 
 import Navbar from "./Navbar";
 import ConsultForm from "./ConsultForm";
-import Map from "./Map";
 import Details from "./Details";
 import MedicalCenter from "./MedicalCenter";
 import SocialMedia from "./SocialMedia";
+import Coordinates from "./Coordinates";
+
 
 function Contact () {
 
@@ -32,7 +33,7 @@ function Contact () {
                     <ConsultForm />
                 </div>
                 <div className="map-container">
-                    <Map />
+                    <Coordinates />
                 </div>
                 <div className="navBottomRight">
                     <div className="medical-container">

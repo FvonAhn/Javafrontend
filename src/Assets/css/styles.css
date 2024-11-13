@@ -739,7 +739,8 @@ input:checked + .slider:before {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin: 1rem;
+    margin-bottom: 2rem;
+
 }
 .home {
     display: flex;
@@ -747,13 +748,12 @@ input:checked + .slider:before {
     gap: 7px;
 }
 .navHeadline {
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 .details-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin: 1rem;
 }
 .details {
     display: flex;

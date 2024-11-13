@@ -7,16 +7,16 @@ const SocialMedia = () => {
         <>
             <div className="social-media">
                 <div className="social-icons">
-                    <i class="fa-brands fa-square-facebook"></i>
+                    <i className="fa-brands fa-square-facebook"></i>
                 </div>
                 <div className="social-icons">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                 </div>
                 <div className="social-icons">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                 </div>
                 <div className="social-icons">
-                    <i class="fa-brands fa-youtube"></i>
+                    <i className="fa-brands fa-youtube"></i>
                 </div>
             </div>
         </>
