@@ -4,7 +4,7 @@ const SignInUp = () => {
 
     return (
 
-        <a href="#" className="btn-gubbe">
+        <a href="/underconstruction" className="btn-gubbe">
             <i className="fa-regular fa-user"></i>
             <span>Sign in / up</span>
         </a>

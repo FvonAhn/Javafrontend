@@ -7,6 +7,7 @@ import PageFour from './Components/PageFour'
 import FifthPage from './Components/FifthPage'
 import SixthPage from './Components/SixthPage'
 import Contact from './Components/Contact'
+import NotFound from './Components/NotFound'
 
 function App  ()  {
 
@@ -28,6 +29,7 @@ function App  ()  {
           </>
         }/>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/underconstruction" element={<NotFound />} />
       </Routes>
     </Router>
   )

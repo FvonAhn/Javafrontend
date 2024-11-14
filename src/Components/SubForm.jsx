@@ -18,6 +18,7 @@ const SubForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
+        try {
         const res = await fetch('https://win24-assignment.azurewebsites.net/api/forms/subscribe', {
             method: 'post',
             headers: {
@@ -26,35 +27,40 @@ const SubForm = () => {
             body: JSON.stringify(formData)
         })
 
-        if (res.ok) {
+        if (!res.ok) {
+            const errorText = await res.text()
+            console.error('Submission failed with status: ', res.status, errorText)
+            alert(`Hmmm... was that really a email adress? Error: ${res.status} - ${errorText}`)
+        } else {
             setSubmitted(true)
             setFormData({ email: '' })
         }
+        } catch (error) {
+            console.error('Error during submission:', error)
+        }
     }
 
-    if (submitted) {
+    return (
 
-        return (
-            <div className="infoBox">
+        <div>
+            {submitted ? (
+                <div className="infoBox">
                 <h1>Thank you!</h1>
                 <p className="infoBox-text">You will never here from us.</p>
                 <button className="infoBox-btn" onClick={handleOK}>OK</button>
             </div>
-        )
+            ) : (
 
-    }
+            <form onSubmit={handleSubmit} className="sub-form" noValidate>
 
+                <img className="sub-img" src={Envelope} />
+                <input type="email" value={formData.email} onChange={handleChange} className="input-email" name="email" placeholder="Your Email" />
+                <button type="submit" className="btn-sub">Subscribe</button>
+                
+            </form> 
+            )}
+        </div>
 
-
-    return (
-
-        <form onSubmit={handleSubmit} className="sub-form" noValidate>
-
-            <img className="sub-img" src={Envelope} />
-            <input type="email" value={formData.email} onChange={handleChange} className="input-email" name="email" placeholder="Your Email" />
-            <button type="submit" className="btn-sub">Subscribe</button>
-            
-        </form> 
 
     )
 

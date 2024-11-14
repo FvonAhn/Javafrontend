@@ -943,6 +943,14 @@ input:checked + .slider:before {
 .infoBox-btn:hover {
     background-color:  rgb(102, 99, 241, .7);
 }
+.notfoundPage {
+    margin-top: 2rem;
+    font-size: 3rem;
+    background: white;
+    display: grid;
+    place-items: center;
+
+}
 /* #rickrolled {
     background-color: #0B0F19;
 } */
