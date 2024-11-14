@@ -15,8 +15,12 @@ function App  ()  {
       <Routes>
         <Route path="/" element={
           <>
-          <FirstPage />
-          <SecondPage />
+          <section id="FirstPage">
+            <FirstPage />
+          </section>
+          <section id="SecondPage">
+            <SecondPage />
+          </section>
           <ThirdPage />
           <PageFour />
           <FifthPage />

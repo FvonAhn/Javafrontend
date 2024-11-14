@@ -821,18 +821,21 @@ input:checked + .slider:before {
     color: black;
 }
 .inputFullName {
+    padding: 5px;
     font-size: 1.2rem;
     width: 491px;
     height: 52px;
     border-radius: 10px;
 }
 .inputEmail {
+    padding: 5px;
     font-size: 1.2rem;
     width: 491px;
     height: 52px;
     border-radius: 10px;
 }
 .specialist {
+    padding: 2px;
     font-size: 1.2rem;
     width: 491px;
     height: 52px;
@@ -900,6 +903,27 @@ input:checked + .slider:before {
     justify-content: center;
     font-weight: 100;
     font-size: 12px;
+}
+.infoBox {
+    color: black;
+    background-color: var(--_clr-white);
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+.infoBox-text {
+    color: black;
+}
+.infoBox-btn {
+    color: white;
+    background-color: var(--_clr-primary);
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 0.2rem 0.2rem;
+    width: 2rem;
+    cursor: pointer;
 }
 /* #rickrolled {
     background-color: #0B0F19;

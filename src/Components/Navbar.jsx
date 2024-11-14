@@ -16,7 +16,7 @@ function Navbar() {
                     </a>
                 </div>
                 <nav className="feat">
-                    <a href="/">Features</a>
+                    <a href="/#SecondPage">Features</a>
                     <a href="/contact">Contact</a>       
                 </nav>         
                 <ToggleBtn />
