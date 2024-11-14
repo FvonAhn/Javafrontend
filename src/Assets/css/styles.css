@@ -862,7 +862,12 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
+}
+.medical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .medical-fillers {
     display: flex;
@@ -879,6 +884,7 @@ input:checked + .slider:before {
     font-weight: 200;
 }
 .social-media {
+    padding-top: 1.5rem;
     display: flex;
     max-width: 244px;
 }
@@ -912,6 +918,15 @@ input:checked + .slider:before {
     display: grid;
     place-items: center;
 }
+.infoBoxForm {
+    margin: auto;
+    color: black;
+    background-color: var(--_clr-white);
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
 .infoBox-text {
     color: black;
 }
@@ -924,6 +939,9 @@ input:checked + .slider:before {
     padding: 0.2rem 0.2rem;
     width: 2rem;
     cursor: pointer;
+}
+.infoBox-btn:hover {
+    background-color:  rgb(102, 99, 241, .7);
 }
 /* #rickrolled {
     background-color: #0B0F19;

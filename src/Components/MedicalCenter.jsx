@@ -6,7 +6,7 @@ const MedicalCenter = () => {
         <>        
             <div className="medical">
                 <h2>Medical Center 1</h2>
-                <div>                    
+                <div className="medical-container">                    
                     <div className="medical-fillers">
                         <div className="medIcon">
                             <i className="fa-solid fa-location-dot"></i>
@@ -38,7 +38,7 @@ const MedicalCenter = () => {
             </div>        
             <div className="medical">
                 <h2>Medical Center 2</h2>
-                <div>
+                <div className="medical-container">
                     <div className="medical-fillers">
                         <div className="medIcon">
                             <i className="fa-solid fa-location-dot"></i>
