@@ -8,10 +8,10 @@ function Downloads() {
 
         <div className="downloads">
             <div className="btn-apple">
-                <a href="#"><img src={applelogo} /></a>
+                <a href="/underconstruction"><img src={applelogo} /></a>
             </div>
             <div className="btn-google">
-                <a href="#"><img src={gplaylogo} /></a>
+                <a href="/underconstruction"><img src={gplaylogo} /></a>
             </div>         
         </div>
 

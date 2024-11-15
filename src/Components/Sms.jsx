@@ -6,7 +6,7 @@ const Sms = () => {
 
     return (
 
-        <a href="#" className="sms">
+        <a href="/underconstruction" className="sms">
             <img src={IconBubble} />
             <p>Don't like phone calls?</p>
             <div className="contact-us-2">

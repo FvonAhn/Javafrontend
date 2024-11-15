@@ -5,7 +5,7 @@ const Call = () => {
 
     return (
 
-        <a href="#" className="call">
+        <a href="/underconstruction" className="call">
             <img src={IconTele} />
             <p>still have questions?</p>
             <div className="contact-us-1">

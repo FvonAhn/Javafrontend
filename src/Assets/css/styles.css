@@ -225,6 +225,7 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(85, 85, 85);
     border-radius: 8px;
     padding-top: 0.6rem;
     padding-left: 1.2rem;
@@ -233,11 +234,13 @@ input:checked + .slider:before {
 .btn-apple:hover {
     background-color: var(--_clr-appshover);
 }
+
 .btn-google {
     background-color: var(--_clr-apps);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(85, 85, 85);
     border-radius: 8px;
     padding-top: 0.6rem;
     padding-left: 1.2rem;
@@ -246,6 +249,7 @@ input:checked + .slider:before {
 .btn-google:hover {
     background-color: var(--_clr-appshover);
 }
+
 .discover {
     margin-top: 20rem;
 }
@@ -950,6 +954,22 @@ input:checked + .slider:before {
     display: grid;
     place-items: center;
 
+}
+.goBack  {
+    margin: 1rem;
+    background-color: #6663F1;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.goBack:hover {
+    background-color:  rgb(102, 99, 241, .7);
+}
+.goText {
+    color: white;
 }
 /* #rickrolled {
     background-color: #0B0F19;
